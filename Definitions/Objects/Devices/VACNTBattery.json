@@ -10,14 +10,14 @@
             "Component" : "TileTransform",
             "Properties" : [
                 { "Key" : "IsRotatable", "Bool" : true },
-                { "Key" : "Width", "Int" : 2},
-                { "Key" : "Height", "Int" : 2}
+                { "Key" : "Width", "Int" : 2}
             ]
         },
         {
             "Component" : "TileGraphics",
             "Properties" : [
                 { "Key" : "Type", "String": "Object" },
+                { "Key" : "HasHeight", "Bool": true },
                 { "Key" : "Graphic", "String": "Objects/Devices/VACNTBattery" }
             ]
         },
