@@ -1,0 +1,7 @@
+{
+    "Name" : "Better Batteries",
+    "Description" : "No more building 100 batteries",
+    "ModVersion" : "1.0.0",
+    "GameVersion" : "0.5.109",
+    "Dependencies" : [ "core" ]
+}

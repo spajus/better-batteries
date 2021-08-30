@@ -1,0 +1,81 @@
+{
+    "ToolPath" : "Devices/Energy",
+    "Layer" : "Objects",
+    "ParentId" : "Objects/Devices/BaseDevice",
+    "Researchable" : {
+        "Prerequisites" : [ "Research/EnergyEfficiency" ]
+    },
+    "Components" : [
+        {
+            "Component" : "TileTransform",
+            "Properties" : [
+                { "Key" : "IsRotatable", "Bool" : true },
+                { "Key" : "Width", "Int" : 2},
+                { "Key" : "Height", "Int" : 2}
+            ]
+        },
+        {
+            "Component" : "TileGraphics",
+            "Properties" : [
+                { "Key" : "Type", "String": "Object" },
+                { "Key" : "Graphic", "String": "Objects/Devices/VACNTBattery" }
+            ]
+        },
+        { "Component" : "Surface" },
+        {
+            "Component" : "Battery",
+            "Properties" : [
+                { "Key" : "Capacity", "Int" : 30000 },
+                { "Key" : "ChargeRate", "Float": 300 },
+                { "Key" : "DischargeRate", "Float": 100 }
+            ]
+        },
+        { 
+            "Component" : "EnergyNode",
+            "Properties" : [
+                { "Key" : "ProductionPriority", "Int" : 3 },
+                { "Key" : "ConsumptionPriority", "Int" : 4 },
+                { "Key" : "ShowZeroProduction", "Bool": false }
+            ]
+        },
+        { 
+            "Component" : "AudioSource",
+            "Properties" : [
+                { "Key" : "AmbienceClip", "String" : "Ambience/ElectricHumm01" },
+                { "Key" : "Rolloff", "Vector2" : { "x" : 3, "y" : 12 } },
+                { "Key" : "IsLinkedToEnergy", "Bool" : true }
+            ]
+        },
+        {
+            "Component" : "Passability",
+            "Properties" : [
+                { "Key" : "IsPassable", "Bool" : false },
+                { "Key" : "IsWalkable", "Bool" : false },
+                { "Key" : "Difficulty", "Float" : 1 }
+            ]
+        },
+        { 
+            "Component" : "LightSource",
+            "Properties" : [
+                { "Key" : "Radius", "Float" : 5 }
+            ]
+        },
+        { 
+            "Component" : "Constructable",
+            "Properties" : [
+                { "Key" : "WorkAmount", "Int" : 8000 },
+                { 
+                    "Key" : "Contents", 
+                    "RawMaterials" : [
+                        { "TypeId" : "Steel", "StackSize" : 100 },
+                        { "TypeId" : "CopperPlate", "StackSize" : 10 },
+                        { "TypeId" : "Carbon", "StackSize" : 50 },
+                        { "TypeId" : "BatteryCell", "StackSize" : 30 }
+                    ]
+                },
+                { "Key" : "SkillChecks", "StringSet": ["Construction"] },
+                { "Key" : "SkillCheckAmounts", "IntSet" : [ 8 ] }
+            ]
+        }
+    ]
+}
