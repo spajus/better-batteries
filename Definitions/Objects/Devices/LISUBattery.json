@@ -25,9 +25,9 @@
         {
             "Component" : "Battery",
             "Properties" : [
-                { "Key" : "Capacity", "Int" : 15000 },
+                { "Key" : "Capacity", "Int" : 20000 },
                 { "Key" : "ChargeRate", "Float": 150 },
-                { "Key" : "DischargeRate", "Float": 20 }
+                { "Key" : "DischargeRate", "Float": 75 }
             ]
         },
         { 
