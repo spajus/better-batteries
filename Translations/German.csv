@@ -1,5 +1,5 @@
-Key,Translation,Comment
-objects.devices.vacntbattery,VACNT-Batterie,
-objects.devices.vacntbattery.desc,"VACNT steht f¸r ""Vertically Aligned Carbon Nanotube"". Diese haar‰hnlichen Kohlenstofffasern sind die Zukunft",
-objects.devices.lisubattery,LISU-Batterie,
-objects.devices.lisubattery.desc,Diese Lithium-Schwefel-Batterien sind der n‰chste sinnvolle Schritt. Wir haben unsere alte Batterie gestapelt und etwas Schwefel darauf gestreuselt. Magie.,
+Key,Translation,Version,Comment
+objects.devices.vacntbattery,VACNT-Batterie,,
+objects.devices.vacntbattery.desc,"VACNT steht f√ºr ""Vertically Aligned Carbon Nanotube"". Diese haar√§hnlichen Kohlenstofffasern sind die Zukunft",,
+objects.devices.lisubattery,LISU-Batterie,,
+objects.devices.lisubattery.desc,Diese Lithium-Schwefel-Batterien sind der n√§chste sinnvolle Schritt. Wir haben unsere alte Batterie gestapelt und etwas Schwefel darauf gestreuselt. Magie.,,

@@ -1,5 +1,5 @@
-Key,Translation,Comment
-objects.devices.vacntbattery,VACNT-Battery,
-objects.devices.vacntbattery.desc,VACNT stands for 'Vertically Aligned Carbon Nanotube'. These hair-like carbon fibers are the future,
-objects.devices.lisubattery,LISU-Battery,
-objects.devices.lisubattery.desc,These Lithium-sulfur batteries are the next reasonable step. We stacked our old battery and sprinkeld some sulfur on top. Magic.,
+Key,Translation,Version,Comment
+objects.devices.vacntbattery,VACNT-Battery,,
+objects.devices.vacntbattery.desc,"VACNT stands for ""Vertically Aligned Carbon Nanotube"". These hair-like carbon fibers are the future",,
+objects.devices.lisubattery,LISU-Battery,,
+objects.devices.lisubattery.desc,These Lithium-sulfur batteries are the next reasonable step. We stacked our old battery and sprinkled some sulfur on top. Magic.,,
